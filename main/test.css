@@ -1,0 +1,92 @@
+body {
+	background:#5c774d;
+	font-family: Helvetica, sans-serif;
+	font-size:10pt;
+	color:black;
+	line-height:1.5;
+}
+
+#banner { 
+	color:black;
+	padding-top:1em;
+	font-size:20pt;
+}
+
+#link-bar { 
+	margin-top:60px;
+	font-size:12pt;
+}
+
+#wrapper {
+	padding-top:2em;
+	padding-bottom:2em;
+	background:#c8f0b7;
+}
+
+#latest-post-box {
+	background:#c8f0b7;
+}
+
+.inner-wrapper {
+	padding-left:3em;
+	padding-right:3em; 
+}
+
+#recent-activity-box {
+	background:#c8f0b7;
+	width:18em;
+}
+
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	font-size:0;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display:inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+a { 
+	color:#333;
+	text-decoration:none;	
+}
+
+a:visited { color:#222 }
+
+a:hover { color:#000 }
+
+.link-tabs {
+	float:left;
+	text-align: center;
+	margin-right:.5em;
+}
+
+.link-tabs a{
+	float:left;
+	padding-left:.5em;
+	padding-right:.5em;
+	padding-bottom:4px;
+	padding-top:3px;
+	background:#1e1e1e;
+	color:#fff;
+	text-decoration:none;
+}
+
+.link-tabs a:hover{background: #89a47a}
+
+.link-tabs .activelink a{background:#c8f0b7; color:#000}
+
+.link-tabs .activelink a:hover{background:#89a47a}

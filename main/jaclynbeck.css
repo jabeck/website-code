@@ -1,0 +1,123 @@
+body {
+	background:#5c774d;
+	font-family: Helvetica, sans-serif;
+	font-size:10pt;
+	color:black;
+	line-height:1.5;
+}
+
+#banner { 
+	font-size:20pt;
+	padding:1em;
+	margin-left:20em;
+	color:black;
+}
+
+#link-bar { 
+	float:left;
+	margin-left:6em;
+	font-size:12pt;
+	margin-top:3.9em; 
+}
+
+#wrapper {
+	float:left;
+	margin-right:5em;
+	margin-left:5em;
+	padding-top:2em;
+	padding-bottom:2em;
+	background:#c8f0b7;
+	width:64em;
+	margin-bottom:2em;
+}
+
+#banner-wrapper {
+	background:none;
+	margin-left:5em;
+	margin-right:5em;
+	width:64em;
+}
+
+#latest-post-box {
+	float:left;
+	background:#c8f0b7;
+	width:40em;
+}
+
+.inner-wrapper {
+	padding-left:2em;
+	padding-right:2em;
+}
+
+.inner-box {
+	padding-left:1em;
+	padding-right:1em;
+}
+
+#recent-activity-box {
+	background:#c8f0b7;
+	margin-left:42em;
+	width:18em;
+}
+
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	font-size:0;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display:inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+a { 
+	color:#333;
+	text-decoration:none;	
+}
+
+a:visited { color:#222 }
+
+a:hover { color:#000 }
+
+ul#link-tabs, ul#link-tabs li{
+	list-style-type:none;
+	margin:0;
+	padding:0
+}
+
+ul#link-tabs{float:left}
+
+ul#link-tabs li{
+	float:left;
+	padding-right:5px;
+	text-align: center
+}
+
+ul#link-tabs a{
+	float:left;
+	padding-left:.5em;
+	padding-right:.5em;
+	padding-bottom:4px;
+	padding-top:3px;
+	background:#1e1e1e;
+	color:#fff;
+	text-decoration:none;
+}
+
+ul#link-tabs a:hover{background: #89a47a}
+
+ul#link-tabs li.activelink a{background:#c8f0b7; color:#000}
+
+ul#link-tabs li.activelink a:hover{background:#89a47a}
